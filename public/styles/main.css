@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Comfortaa';
+  src: url("/vendors/fonts/Comfortaa/Comfortaa-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("/vendors/fonts/Myriad_Pro_Regular/Myriad_Pro_Regular.ttf");
+}
+
+body {
+  display: flex;
+  font-family: 'Myriad Pro';
+  background-color: #e9ebee;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  flex: 1;
+  display: flex;
+}
+
+.headerContainer {
+    background-color: #181818;
+    color: #e9ebee;
+    padding: 1.5% 2% 1.5% 2%;
+    font-family: 'Comfortaa';
+}
+
+.headerTitle {
+  display: inline;
+  cursor: pointer;
+  padding-top: 2%;
+}
+
+footer {
+  font-family: 'Myriad Pro';
+  width: 100%;
+}
+
+.footerContainer {
+    background-color: #181818;
+    color: #e9ebee;
+    padding: 10px;
+    text-align: center;
+}
+
+.dva{
+  max-height: 70px;
+  width: auto;
+  padding-left: 10px;
+}
+
+.sombra{
+  max-height: 40px;
+  width: auto;
+}

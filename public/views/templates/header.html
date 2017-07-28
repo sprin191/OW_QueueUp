@@ -1,19 +1,6 @@
 <div class="headerContainer" ng-controller="HeaderController">
   <div class="headerContent">
-    <h3 class="headerTitle" ng-click="routeHome()">VinnaVel</h3>
-
-    <button type="button" class="headerNav btn btn-primary" ng-hide="hide" ng-click="logout()">Logout</button>
-
-    <div class="btn-group headerNav dropdown" ng-hide="hiddenAdmin" uib-dropdown is-open="status.isopen">
-      <button id="single-button" type="button" class="btn btn-primary" uib-dropdown-toggle ng-disabled="disabled">
-        Admin Navigation <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
-        <li role="menuitem"><a href="#/companies">Companies</a></li>
-        <li role="menuitem"><a href="#/trainers">Trainers</a></li>
-        <li role="menuitem"><a href="#/search">Search</a></li>
-        <li role="menuitem"><a href="#/applicant">Assessment</a></li>
-      </ul>
-    </div>
+    <h3 class="headerTitle">Queue Up!</h3>
+    <a href="#dva"><img class="dva" src="/images/dva_bunny_logo.png"/></a>
   </div>
 </div>
