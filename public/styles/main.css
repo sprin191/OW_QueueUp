@@ -49,13 +49,27 @@ footer {
     text-align: center;
 }
 
-.dva{
+.dva {
   max-height: 70px;
   width: auto;
   padding-left: 10px;
 }
 
-.sombra{
+.sombra {
   max-height: 40px;
   width: auto;
+}
+
+.btn-purple {
+  color: purple;
+  border-color: purple;
+  border-width: .25em;
+  background-color: transparent;
+}
+
+.btn-purple:hover {
+  color: white;
+  border-color: purple;
+  background-color: purple;
+  opacity: .7;
 }

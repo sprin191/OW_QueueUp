@@ -4,10 +4,9 @@ var app = express();
 var bodyParser = require('body-parser');
 var path = require('path');
 
+
 //route variables
-//var connection = require('./modules/connection');
-//var companies = require('./routes/companies');
-//var jobs = require('./routes/jobs');
+var users = require('../server/routes/users');
 
 
 app.use(bodyParser.json());
@@ -19,8 +18,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 //app.use(passport.initialize());
 //app.use(passport.session());
 // Routes
-//app.use('/companies', companies);
-//app.use('/jobs', jobs);
+app.use('/users', users);
 
 
 app.post('/data/:number', function (req, res) {
